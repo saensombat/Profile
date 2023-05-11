@@ -4,52 +4,126 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <section class="homes_Container">
-      <div class="home">
-        <nav>
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PROFILE</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </nav>
-        <div class="detel">
-          <h1>I am The <span>Programer</span></h1>
-          <p>
-            asd asdfefbthh kdf hjgdir yghasoierjkfghlsw <br />
-            rkldsfbgdfglkse lsdfj
-          </p>
-          <a href="#">Download CV</a>
-        </div>
-        <div class="social">
-          <a href=""
-            ><ion-icon class="icon-contact" name="logo-instagram"></ion-icon
-          ></a>
-          <a href=""
-            ><ion-icon class="icon-contact" name="logo-facebook"></ion-icon
-          ></a>
-          <a href=""
-            ><ion-icon class="icon-contact" name="call-outline"></ion-icon
-          ></a>
-        </div>
-        <div class="images">
-          <img src="images/shape.png" class="shape" />
-          <img src="images/men.png" class="girl" />
+
+    <section class="container-fluid home d-flex align-items-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1>I am The <span>Programer</span></h1>
+            <p>
+              asd asdfefbthh kdf hjgdir yghasoierjkfghlsw <br />
+              rkldsfbgdfglkse lsdfj
+            </p>
+            <a class="text-uppercase" href="#">more about me</a>
+            <div class="row">
+              <div class="col">
+                <a href=""
+                ><ion-icon class="icon-contact" name="logo-instagram"></ion-icon
+              ></a>
+              <a href=""
+                ><ion-icon class="icon-contact" name="logo-facebook"></ion-icon
+              ></a>
+              <a href=""
+                ><ion-icon class="icon-contact" name="call-outline"></ion-icon
+              ></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col  text-end text-uppercase">
+            <nav>
+              <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">profile</a></li>
+                <li><a href="#">contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          
+          <div class="images">
+            <img src="images/shape.png" class="shape" />
+            <img src="images/men.png" class="girl" />
+          </div>
         </div>
       </div>
+      
     </section>
-    
-    <section class="abouts_Container">
-      <div class="about_head">
+
+    <section class="container-fluid about">
+      <section class="container d-flex align-items-center justify-content-center about_">
         <h1>ABOUT <span>ME</span></h1>
-        <span>RESUME</span>
-      </div>
+        <span class="titel_bg">RESUME</span>
+      </section>
+
+      <section class=" pt-5 perso_Info">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-5 col-xl-6">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="text-uppercase ">personal infos</h3>
+                </div>
+                <div class="col-6">
+                  <ul>
+                    <li>
+                      <span class="title">first name :</span>
+                      <span>natthapong</span>
+                    </li>
+                    <li>
+                      <span class="title">last name :</span>
+                      <span>saensombat</span>
+                    </li>
+                    <li>
+                      <span class="title">age :</span>
+                      <span>24</span>
+                    </li>
+                    <li>
+                      <span class="title">nationality :</span>
+                      <span>thai</span>
+                    </li>
+      
+                  </ul>
+                </div>
+                <div class="col-6">
+                  a
+                </div>
+                <div class="col-12 mt-3">
+                  <a class="button" href="#">
+                    <span class="button-text"> Dowload CV</span>
+                    <span class="bi bi-box-arrow-in-down"></span>
+                    
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
+              ass
+            </div>
+          </div>
+        </div>
+      </section>
+
     </section>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
