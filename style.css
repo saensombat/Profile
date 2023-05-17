@@ -4,7 +4,53 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.home{
+body{
+    padding-top: 3.5rem;
+}
+
+.intro{
+    height: 94.2vh;
+    background: #e0e6ff;
+}
+
+._about{
+    background: #000000;
+}
+
+._about .about_container{
+    padding-top: 2rem;
+}
+
+._about .about_info{
+    padding-top: 4rem;
+}
+
+._about h1{
+    padding-top: 12.5px;
+    z-index: 1;
+    color: #f8b436;
+}
+
+._about .head_about{
+    margin-top: 2cm;
+}
+
+._about .head_about .titel_bg{
+    position: absolute;
+    font-size: 5rem;
+}
+
+.text_info{
+    padding-right: 10cm;
+}
+
+.separator{
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+}
+
+
+/*.home{
     width: 100%;
     height: 100vh;
     background: #e5edff;
@@ -12,29 +58,35 @@
 }
 
 .about{
+    width: 100%;
+    height: 100vh;
     background: black;
     padding: 100px;
 }
 
-nav ul  {
+.navbar{
+    justify-content: end;
+}
+
+nav ul {
     list-style: none;
+
 }
 
-nav ul li a{
-    text-decoration: none;
-}
-
-nav ul li {
-    height:60px;
-    line-height: 60px;
+nav ul li { 
+    text-align: center;
+    border-radius: 2px;
+    width: 3.5cm;
+    height: 1.5cm;
+    border: 2px solid black;
+    line-height: 50px;
+    margin-bottom: 10px;
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease;
 }
-/*nav ul li a{
+nav ul li a{
     text-decoration: none;
     color: #000;
-    font-weight: bold;
 }
 
 
@@ -43,7 +95,8 @@ nav ul li a:hover{
 }
 
 nav ul li:hover{
-    transform: scale(1.4);
+    
+    transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -86,18 +139,16 @@ span{
 }
 */
 .images{
-    width: 45%;
+    width: 41.7%;
     height: 80%;
     position: absolute;
     bottom: 0;
-    right: 4cm;
+    left: 5cm;
 }
 .images img{
     height: 100%;
     position: absolute;
-    left: 50%;
     bottom: 0;
-    transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
 
@@ -105,7 +156,7 @@ span{
     bottom: 40px;
 }
 
-.titel_bg{
+/*.titel_bg{
     position: absolute;
     font-size: 5rem;
     opacity: 0.5;

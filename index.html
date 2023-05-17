@@ -10,114 +10,185 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-
-    <section class="container-fluid home d-flex align-items-center">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <h1>I am The <span>Programer</span></h1>
-            <p>
-              asd asdfefbthh kdf hjgdir yghasoierjkfghlsw <br />
-              rkldsfbgdfglkse lsdfj
-            </p>
-            <a class="text-uppercase" href="#">more about me</a>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid d-flex justify-content-end intro">
+      <div class="row align-items-center text-center">
+        <div class="col-lg-12 text_info">
+          <h1>I am The <span>Programer</span></h1>
+          <p>
+            asd asdfefbthh kdf hjgdir yghasoierjkfghlsw <br />
+            rkldsfbgdfglkse lsdfj
+          </p>
+          <a class="text-uppercase" href="#">more about me</a>
+        </div>
+      </div>
+      <div class="images">
+        <img src="images/shape.png" class="shape" />
+        <img src="images/men.png" class="girl" />
+      </div>
+    </div>
+
+    <div class="container-fluid _about">
+      <div class="container about_container">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-6 d-flex justify-content-center align-items-center head_about"
+          >
+            <h1>ABOUT <span>ME</span></h1>
+            <span class="titel_bg">RESUME</span>
+          </div>
+
+          <div class="container mt-5">
             <div class="row">
-              <div class="col">
-                <a href=""
-                ><ion-icon class="icon-contact" name="logo-instagram"></ion-icon
-              ></a>
-              <a href=""
-                ><ion-icon class="icon-contact" name="logo-facebook"></ion-icon
-              ></a>
-              <a href=""
-                ><ion-icon class="icon-contact" name="call-outline"></ion-icon
-              ></a>
+              <div class="col-12 col-lg-5 col-xl-6 about_info">
+                <div class="row">
+                  <div class="col-12">
+                    <h3 class="text-uppercase">personal infos</h3>
+                  </div>
+                  <div class="col-5">
+                    <ul>
+                      <li>
+                        <span class="title">first name :</span>
+                        <span>natthapong</span>
+                      </li>
+                      <li>
+                        <span class="title">last name :</span>
+                        <span>saensombat</span>
+                      </li>
+                      <li>
+                        <span class="title">age :</span>
+                        <span>24</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-7">
+                    <ul>
+                      <li>
+                        <span class="title">status :</span>
+                        <span>marital</span>
+                      </li>
+                      <li>
+                        <span class="title">phone :</span>
+                        <span>091-063-0714</span>
+                      </li>
+                      <li>
+                        <span class="title">email :</span>
+                        <span>saensombat0447@gmail.com</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 mt-3">
+                    <a class="button" href="#">
+                      <span class="button-text"> Dowload CV</span>
+                      <span class="bi bi-box-arrow-in-down"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-lg-7 col-xl-6 mt-lg-0 about_info">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="box-stats with-margin">
+                      <h3 class="poppins-font position-relative">2</h3>
+                      <p
+                        class="open-sans-font m-0 position-relative text-uppercase"
+                      >
+                        years of <span class="d-block">experience</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box-stats with-margin">
+                        <h3 class="poppins-font position-relative">1</h3>
+                        <p class="open-sans-font m-0 position-relative text-uppercase">completed <span class="d-block">projects</span></p>
+                    </div>
+                </div>
+                </div>
               </div>
             </div>
           </div>
-          
-          <div class="col  text-end text-uppercase">
-            <nav>
-              <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">profile</a></li>
-                <li><a href="#">contact</a></li>
-              </ul>
-            </nav>
-          </div>
-          
-          <div class="images">
-            <img src="images/shape.png" class="shape" />
-            <img src="images/men.png" class="girl" />
+        </div>
+
+        <hr class="separator">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h3 class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-center">My Skills</h3>
+              <div class="row row-cols-2 text-center">
+                <div class="col">
+                  <span class="text_skills">
+                    C#
+                  </span>
+                </div>
+                <div class="col">
+                  <span class="text_skills">
+                    C#
+                  </span>
+                </div>
+                <div class="col">
+                  <span class="text_skills">
+                    C#
+                  </span>
+                </div>
+                <div class="col">
+                  <span class="text_skills">
+                    C#
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      
-    </section>
-
-    <section class="container-fluid about">
-      <section class="container d-flex align-items-center justify-content-center about_">
-        <h1>ABOUT <span>ME</span></h1>
-        <span class="titel_bg">RESUME</span>
-      </section>
-
-      <section class=" pt-5 perso_Info">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-lg-5 col-xl-6">
-              <div class="row">
-                <div class="col-12">
-                  <h3 class="text-uppercase ">personal infos</h3>
-                </div>
-                <div class="col-6">
-                  <ul>
-                    <li>
-                      <span class="title">first name :</span>
-                      <span>natthapong</span>
-                    </li>
-                    <li>
-                      <span class="title">last name :</span>
-                      <span>saensombat</span>
-                    </li>
-                    <li>
-                      <span class="title">age :</span>
-                      <span>24</span>
-                    </li>
-                    <li>
-                      <span class="title">nationality :</span>
-                      <span>thai</span>
-                    </li>
-      
-                  </ul>
-                </div>
-                <div class="col-6">
-                  a
-                </div>
-                <div class="col-12 mt-3">
-                  <a class="button" href="#">
-                    <span class="button-text"> Dowload CV</span>
-                    <span class="bi bi-box-arrow-in-down"></span>
-                    
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
-              ass
-            </div>
-          </div>
-        </div>
-      </section>
-
-    </section>
-
-
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
