@@ -5,16 +5,16 @@
 }
 
 body{
-    padding-top: 3.5rem;
+    padding-top: 0;
 }
 
 .intro{
-    height: 94.2vh;
+    height: 100vh;
     background: #e0e6ff;
 }
 
 ._about{
-    height: 105vh;
+    height: 160vh;
     background: #000000;
 }
 
@@ -54,8 +54,8 @@ body{
 }
 
 .separator{
-    margin-top: 3cm;
-    margin-bottom: 3cm;
+    margin-top: 2cm;
+    margin-bottom: 2.5cm;
 }
 
 .intro .text_info span{
@@ -84,3 +84,20 @@ body::-webkit-scrollbar{
     bottom: 40px;
 }
 
+.imgs_skills{
+    width: 130px;
+    height: auto;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-nav{
+    font-size: 20px;
+}
+
+.img_about{
+    width: 50px;
+    height: auto;
+}
