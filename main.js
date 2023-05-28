@@ -6,7 +6,7 @@ window.addEventListener("scroll", function() {
     var targetPosition = 880;
 
     if (scrollPosition >= targetPosition) {
-      element.style.color = "#FECD70";
+      element.style.color = "#f8b436";
     } else {
       element.style.color = "black";
     }
@@ -23,7 +23,7 @@ window.addEventListener("scroll", function() {
       var linkElement = linkElements[i];
 
       if (scrollPosition >= targetPosition) {
-        linkElement.style.color = "#FECD70";
+        linkElement.style.color = "#f8b436";
       } else  {
         linkElement.style.color = "black";
       }

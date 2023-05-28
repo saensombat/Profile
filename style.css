@@ -41,12 +41,8 @@ body{
     font-size: 5rem;
 }
 
-._contact{
-    height: 20vh;
-}
-
-._contact .contact_container{
-    padding-top: 4rem;
+.skill_about{
+    padding-bottom: 30px;
 }
 
 .text_info{
