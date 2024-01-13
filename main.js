@@ -3,7 +3,7 @@ window.addEventListener("scroll", function() {
     var scrollPosition = window.scrollY;
     console.log(scrollPosition)
     // กำหนดจุดที่ต้องการให้เปลี่ยนสี
-    var targetPosition = 880;
+    var targetPosition = 710;
 
     if (scrollPosition >= targetPosition) {
       element.style.color = "#f8b436";
@@ -17,7 +17,7 @@ window.addEventListener("scroll", function() {
     var linkElements = list.getElementsByTagName("a");
     var scrollPosition = window.scrollY;
   
-    var targetPosition = 880;
+    var targetPosition = 710;
   
     for (var i = 0; i < linkElements.length; i++) {
       var linkElement = linkElements[i];

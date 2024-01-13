@@ -1,187 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Natthapong</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container-fluid ps-5">
-        <a class="navbar-brand" id="myElement" href="#">NS</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" id="myList" >
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="#_about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#_about">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
-    <div class="container-fluid d-flex justify-content-end intro">
-      <div class="row align-items-center text-center">
-        <div class="col-lg-12 text_info">
-          <h1>Hello I am The <span>Programer</span></h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Natthapong</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid ps-5">
+      <a class="navbar-brand" id="myElement" href="#">NS</a>
+    </div>
+  </nav>
+
+  <div class="container-fluid d-flex justify-content-center intro">
+    <div class="row align-items-center">
+        <div class="col text-center text_info">
+          <h1>Hello I am The <span>Natthapong</span></h1>
           <p class="text-capitalize lh-lg">
-            I have a new interest in self-cultivation. <br />
-            Because we always develop ourselves will make us understand things
-            more.
+            I am interested in self-improvement. <br>
+            Because if we always train ourselves, we will achieve our goals.
           </p>
-          <a class="text-uppercase btn btn-warning button" id="scroll_about"
-            >more about me</a
-          >
+          <p class="text-slogan">“I am a slow walker, but I never walk backwards.”</p>
+          <a class="text-uppercase btn btn-warning button" id="scroll_about">more about me</a>
         </div>
-      </div>
-      <div class="images">
-        <img src="images/shape.png" class="shape" />
-        <img src="images/men.png" class="girl" />
-      </div>
     </div>
+  </div>
 
-    <div class="container-fluid _about" id="_about">
-      <div class="container about_container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-12 d-flex justify-content-center align-items-center head_about">
-            <h1>ABOUT <span>ME</span></h1>
-            <span class="titel_bg ">RESUME</span>
-          </div>
-
-          <div class="container  mt-5">
-            <div class="row">
-              <div class="col-12 about_info">
-                <div class="row">
-                  <div class="col-6 text-center">
-                    <h3 class="text-uppercase text-light">personal infos & Contact</h3>
-                  </div>
-                  <div class="col-6 text-center text-light">
-                    <h3 class="text-uppercase">strength & weakness</h3>
-                  </div>
-                  <div class="col-5 text-capitalize text-light d-flex justify-content-between">
-                    <ul>
-                      <li>
-                        <span class="title">full name :</span>
-                        <span>natthapong saensombat</span>
-                      </li>
-                      <li>
-                        <span class="title">age :</span>
-                        <span>24</span>
-                      </li>
-                      <li>
-                        <span class="title">status :</span>
-                        <span>marital</span>
-                      </li>
-                      <li>
-                        <span class="title">phone :</span>
-                        <span>091-063-0714</span>
-                      </li>
-                      <li>
-                        <span class="title">email :</span>
-                        <span>saensombat0447@gmail.com</span>
-                      </li>
-                    </ul>
-                  </div>
-                    <div class="col-7 text-light">
-                      <div class="row g-5">
-                        <div class="col text-capitalize d-flex justify-content-center">
-                          <ul>
-                            <li>
-                              <span>good human relations</span>
-                            </li>
-                            <li>
-                              <span>listen to reason</span>
-                            </li>
-                            <li>
-                              <span>love self-improvement</span>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                          <ul>
-                            <li>
-                              <span>Difficult decisions when pressured</span>
-                            </li>
-                            <li>
-                              <span>too calm</span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  <div class="col-12 mt-3 text-center">
-                    <a class="button btn btn-warning button" href="CV.pdf" download>
-                      <span class="button-text"> Dowload CV |</span>
-                      <span class="bi bi-box-arrow-in-down" style="font-size: 25px;"></span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div class="container-fluid _about" id="_about">
+    <div class="container about_container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 d-flex justify-content-center align-items-center head_about">
+          <h1>ABOUT <span>ME</span></h1>
+          <span class="titel_bg ">RESUME</span>
         </div>
 
-        <hr class="separator" />
-
-        <div class="container">
+        <div class="container  mt-5">
           <div class="row">
-            <div class="col-12 text-uppercase d-flex justify-content-center align-items-center skill_about"> 
-              <h1>programming language</h1>
-            </div>
-            <div class="col-12">
-              <div class="row row-cols-2 text-center d">
-                <div class="col-12">
-                  <img src="images/c-sharp.png" alt="" class="imgs_skills" />
-                  <img src="images/pngegg (1).png" alt="" class="imgs_skills" />
-                  <img src="images/html-5.png" alt="" class="imgs_skills" />
-                  <img src="images/css-3.png" alt="" class="imgs_skills" />
-                  <img src="images/javascript (1).png" alt="" class="imgs_skills" />
-                  <img src="images/sql.png" alt="" class="imgs_skills" />
+            <div class="col-12 about_info">
+              <div class="row">
+                <div class="col-md-6 text-center">
+                  <h3 class="text-uppercase text-light">personal infos & Contact</h3>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row mt-5">
-            <div class="col-12">
-              <div class="col-12 text-uppercase d-flex justify-content-center align-items-center skill_about"> 
-                <h1>Tools</h1>
-              </div>
-              <div class="row row-cols-2 text-center d">
-                <div class="col-12">
-                  <img src="images/vscode.png" alt="" class="imgs_skills" />
-                  <img src="images/Visual-Studio-Logo-2019.png" style="width: 200px; height: auto;" alt="" class="imgs_skills" />
-                  <img src="images/logo (1).png" alt="" class="imgs_skills" />
-                  <img src="images/DaVinci_Resolve_Studio.png" alt="" class="imgs_skills" />
-                  <img src="images/unity.png" alt="" class="imgs_skills" />
+                <div class="col-md-6 text-capitalize text-light d-flex justify-content-between">
+                  <ul>
+                    <li>
+                      <span class="title">full name :</span>
+                      <span>natthapong saensombat</span>
+                    </li>
+                    <li>
+                      <span class="title">age :</span>
+                      <span>24</span>
+                    </li>
+                    <li>
+                      <span class="title">status :</span>
+                      <span>marital</span>
+                    </li>
+                    <li>
+                      <span class="title">phone :</span>
+                      <span>091-063-0714</span>
+                    </li>
+                    <li>
+                      <span class="title">email :</span>
+                      <span>saensombat0447@gmail.com</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-12 text-light">
+                  <div class="row">
+                    <div class="col-md-6 text-center text-light">
+                      <h3 class="text-uppercase">strength & weakness</h3>
+                    </div>
+                    <div class="col-md-3 text-capitalize  ">
+                      <ul>
+                        <li>
+                          <span>good human relations</span>
+                        </li>
+                        <li>
+                          <span>listen to reason</span>
+                        </li>
+                        <li>
+                          <span>love self-improvement</span>
+                        </li>
+                        <li>
+                          <span>Difficult decisions when pressured</span>
+                        </li>
+                        <li>
+                          <span>too calm</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-3 text-center">
+                  <a class="button btn btn-warning button" href="CV.pdf" download>
+                    <span class="button-text"> Dowload CV |</span>
+                    <span class="bi bi-box-arrow-in-down" style="font-size: 25px;"></span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -189,35 +110,62 @@
         </div>
       </div>
 
+      <hr class="separator" />
 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-uppercase text-center mb-3">
+            <h1>Programming Languages</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+                <img src="images/c-sharp.png" alt="" class="imgs_skills img-fluid" />
+                <img src="images/pngegg (1).png" alt="" class="imgs_skills img-fluid" />
+                <img src="images/html-5.png" alt="" class="imgs_skills img-fluid" />
+                <img src="images/css-3.png" alt="" class="imgs_skills img-fluid" />
+                <img src="images/javascript (1).png" alt="" class="imgs_skills img-fluid" />
+                <img src="images/sql.png" alt="" class="imgs_skills img-fluid" />
+              </div>
+            </div>
+        </div>
 
-      
+        <div class="row mt-5">
+          <div class="col">
+            <div class="col-lg-12 text-uppercase text-center">
+              <h1>Tools</h1>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <img src="images/vscode.png" alt="" class="imgs_skills" />
+                <img src="images/Visual-Studio-Logo-2019.png" style="width: 155px; height: auto;" alt=""
+                  class="imgs_skills" />
+                <img src="images/logo (1).png" alt="" class="imgs_skills" />
+                <img src="images/DaVinci_Resolve_Studio.png" alt="" class="imgs_skills" />
+                <img src="images/unity.png" alt="" class="imgs_skills" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    
 
-    <script src="main.js"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+
+  </div>
+
+
+
+  <script src="main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>

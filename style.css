@@ -14,7 +14,7 @@ body{
 }
 
 ._about{
-    height: 160vh;
+    height: 100%;
     background: #000000;
 }
 
@@ -46,7 +46,7 @@ body{
 }
 
 .text_info{
-    padding-right: 5cm;
+    padding: 22px;
 }
 
 .separator{
@@ -62,31 +62,18 @@ body::-webkit-scrollbar{
     display: none;
   }
 
-.images{
-    width: 41.7%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    left: 5cm;
-}
-.images img{
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    transition: bottom 1s, left 1s;
-}
-
-.images:hover .shape{
-    bottom: 40px;
+.text-slogan{
+    font-size: 30px;
+    color: #f8b436;
 }
 
 .imgs_skills{
-    width: 130px;
+    width: 100px;
     height: auto;
 }
 
 .navbar-brand{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .navbar-nav{
