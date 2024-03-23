@@ -12,23 +12,6 @@ window.addEventListener("scroll", function() {
     }
   });
 
-  window.addEventListener("scroll", function() {
-    var list = document.getElementById("myList");
-    var linkElements = list.getElementsByTagName("a");
-    var scrollPosition = window.scrollY;
-  
-    var targetPosition = 710;
-  
-    for (var i = 0; i < linkElements.length; i++) {
-      var linkElement = linkElements[i];
-
-      if (scrollPosition >= targetPosition) {
-        linkElement.style.color = "#f8b436";
-      } else  {
-        linkElement.style.color = "black";
-      }
-    }
-  });
 
 var scrollButton = document.getElementById("scroll_about");
 var content = document.getElementById("_about");
